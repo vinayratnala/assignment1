@@ -80,7 +80,7 @@ namespace assignment1
                 int i, j;
 
             
-                for (i = 0; i < n; i++)//this is to traverse the number of rows
+                for (i = 0; i <= n; i++)//this is to traverse the number of rows
                 {
                     for (j = 1; j <= n - i; j++)//
                         Console.Write(" ");
